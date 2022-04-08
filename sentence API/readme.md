@@ -19,7 +19,8 @@
 
 ### 1. Build the project using docker
 
-```PS J:\VSCODE_WORKSPACE\flask\sentence API> docker-compose build
+```
+PS J:\VSCODE_WORKSPACE\flask\sentence API> docker-compose build
 Building web
 [+] Building 1.2s (10/10) FINISHED
  => [internal] load build definition from Dockerfile                                                                                                                                                                          0.0s
@@ -43,7 +44,8 @@ Use 'docker scan' to run Snyk tests against images to find vulnerabilities and l
 ```
 ### 2. Start the docker image
 
-```PS J:\VSCODE_WORKSPACE\flask\sentence API> docker-compose up   
+```
+PS J:\VSCODE_WORKSPACE\flask\sentence API> docker-compose up   
 Starting sentenceapi_db_1 ... done
 Recreating sentenceapi_web_1 ... done
 Attaching to sentenceapi_db_1, sentenceapi_web_1
@@ -90,8 +92,6 @@ web_1  |  * Running on http://127.0.0.1:5000
 web_1  |  * Running on http://172.20.0.3:5000 (Press CTRL+C to quit)
 ```
 
-#### Note: Below are the examples to request the APIs and to have a look at API reponses. Refer "screenshot" directory for accessing APIs in postman.
-
 ### 3. Access the URL: http://127.0.0.1:5000/register
 
 ```
@@ -109,6 +109,8 @@ web_1  |  * Running on http://172.20.0.3:5000 (Press CTRL+C to quit)
     "status": 200
 }
 ```
+
+![register API](https://github.com/Akshaykumarcp/Flask/blob/master/sentence%20API/screenshots/register%20API.png)
 
 ### 4. Access the URL: http://127.0.0.1:5000/store
 
@@ -129,6 +131,8 @@ web_1  |  * Running on http://172.20.0.3:5000 (Press CTRL+C to quit)
 }
 ```
 
+![store API](https://github.com/Akshaykumarcp/Flask/blob/master/sentence%20API/screenshots/store%20API.png)
+
 ### 5. Access the URL: http://127.0.0.1:5000/getSentence
 
 ```
@@ -146,3 +150,4 @@ web_1  |  * Running on http://172.20.0.3:5000 (Press CTRL+C to quit)
     "status": 200
 }
 ```
+![getSentence API](https://github.com/Akshaykumarcp/Flask/blob/master/sentence%20API/screenshots/getSentence%20API.png)
