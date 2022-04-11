@@ -100,7 +100,7 @@
 
 - spacy model: https://github.com/explosion/spacy-models/releases?q=en_core&expanded=true
 
-![spacy-model](/screenshots/spacy-model.png)
+![spacy-model](https://github.com/Akshaykumarcp/Flask/blob/master/similarity%20of%20text/screenshots/spacy-model.png)
 
 ## Test APIs 
 (All APIs are POST requests)
@@ -123,7 +123,7 @@
     }
     ```
 
-    ![register](/screenshots/register.png)
+    ![register](https://github.com/Akshaykumarcp/Flask/blob/master/similarity%20of%20text/screenshots/register.png)
 
 - http://127.0.0.1:5000/register (when same user trys to register again)
 
@@ -143,7 +143,7 @@
     }
     ```
 
-    ![register-error](/screenshots/register-error.png)
+    ![register-error](https://github.com/Akshaykumarcp/Flask/blob/master/similarity%20of%20text/screenshots/register-error.png)
 
 - http://127.0.0.1:5000/detect
 
@@ -166,7 +166,7 @@
     }
     ```
 
-    ![detect](/screenshots/detect.png)
+    ![detect](https://github.com/Akshaykumarcp/Flask/blob/master/similarity%20of%20text/screenshots/detect.png)
 
 - http://127.0.0.1:5000/detect
 
@@ -188,7 +188,7 @@
     }
     ```
 
-    ![detect out of tokens](/screenshots/detect-out-of-tokens.png)
+    ![detect out of tokens](https://github.com/Akshaykumarcp/Flask/blob/master/similarity%20of%20text/screenshots/detect-out-of-tokens.png)
 
 - http://127.0.0.1:5000/refill
 
@@ -228,4 +228,4 @@
     }
     ```
 
-    ![refill](/screenshots/refill.png)
+    ![refill](https://github.com/Akshaykumarcp/Flask/blob/master/similarity%20of%20text/screenshots/refill.png)
